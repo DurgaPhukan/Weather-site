@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#7C3AED;
+    --dark-color:#111827;
+    --offwhite-color:#F3F4F6;
+    --hover-color: #EDE9FE;
+    --primary-hover: #5B21B6;
+    --secondary-hover:#EDE9FE;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    background-image: url('https://images.unsplash.com/photo-1615208612294-63a1343abd4d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    padding-top:40px;
+    text-align: center;
+}
+
+nav{
+    padding-top:1px;
+    font-size: 1.5rem;
+}
+h1,h3{
+    text-align: center;
+    padding-bottom:10px;
+}
+
+.container input{
+    border: none;
+    padding: 15px;
+    width: 40vw;
+}
+
+.container input:focus{
+    outline: none;
+}
+
+.container  button{
+    color: var(--dark-color);
+    cursor: pointer;
+    padding-left:5px;
+    background:none;
+    border:none;
+    font-size:1.2rem;
+    transition: all 0.3s;
+}
+
+.container button:hover{
+    color: #6B7280;
+}
+
+.container button:focus{
+    outline: none;
+}
+
+.display{
+    text-align: center;
+    color: var(--dark-color);
+    font-weight: bold;
+} 
